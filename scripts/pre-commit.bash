@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Running preCommit Hook"
+echo “Running pre-commit hook”
 npm run test
 if [ $? -ne 0 ]; then
  echo “Tests must pass before commit!”
