@@ -23,7 +23,7 @@ beforeEach(() => {
     }
  //   unreadMail = mailUnread.markMailAsUnread(email, mockStatusChanger)
 })
-
+test('it should run', () => {})
 // test('should call change status method of status changer', () => {
 //     expect(mockedStatusChanger.changeStatus).toBeCalled()
 // })
