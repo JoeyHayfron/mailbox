@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "module": "system",
+    "module": "CommonJS",
     "noImplicitAny": true,
-    "removeComments": true,
     "preserveConstEnums": true,
     "outDir": "ts_build",
-    "sourceMap": true
+    "sourceMap": true,
+    "moduleResolution": "Node",
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "**/*.spec.ts"]
+    "exclude": [
+    "node_modules"
+  ]
 }

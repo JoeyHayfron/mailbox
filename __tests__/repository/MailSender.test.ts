@@ -9,7 +9,7 @@ const mockStatusChanger = StatusChanger as jest.MockedClass<typeof StatusChanger
 let email: Email = undefined;
 const mailSender = new MailSender()
 const mockedStatusChanger = new mockStatusChanger(EmailStatus.OUTGOING)
-let sentMail = undefined;
+let sentMail:Email = undefined;
 
 beforeEach(() => {
     mockStatusChanger.mockClear();
